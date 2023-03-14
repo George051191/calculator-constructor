@@ -1,6 +1,8 @@
 export type TBasicButton = {
-  isClicked: boolean;
   width: string;
   color?: string;
-  value: number;
-};
+  value: number | string;
+  name: number | string;
+  current:number | string | undefined };
+  // onButtonClick: (e: React.MouseEvent<HTMLButtonElement> ) => void;
+
